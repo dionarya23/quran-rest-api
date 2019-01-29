@@ -12,5 +12,5 @@ app.use(bodyParser.json());
 app.use('/', require('./routes/list_surah'));
 app.use('/surah', require('./routes/surah'));
 
-const PORT = 3000 || process.env.PORT
+const PORT = process.env.PORT || 3000
 app.listen(PORT, () => console.log("RUNNING BRO !!!!"))
