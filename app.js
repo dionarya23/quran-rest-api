@@ -14,3 +14,5 @@ app.use('/surah', require('./routes/surah'));
 
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => console.log("RUNNING BRO !!!!"))
+
+module.exports = app
