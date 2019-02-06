@@ -23,7 +23,7 @@ describe('Test Rest List Surah', function() {
         })
     });
 
-    describe('Get one surah ', () => {
+    describe('Get /surah ', () => {
         it('should return one surah in object and status 200', (done) => {
 
             request(server).get('/surah/114')
